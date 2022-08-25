@@ -1,0 +1,24 @@
+@import 'vars';
+
+.suggestion{
+  margin-top: 1.25em;
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+    font-weight: 500;
+    color: $font-color-secondary;
+    margin-bottom: 1.25em;
+  }
+
+  &__title{
+    min-width: 200px;
+  }
+
+  a{
+    width: 100%;
+    text-align: right;
+    color: #000;
+  }
+}

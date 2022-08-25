@@ -1,5 +1,5 @@
 import '../styles/Profile.scss'
-//import ProfileIcon from './ProfileIcon'
+import ProfileIcon from './ProfileIcon'
 import users from '../data/users'
 
 function Profile(props) {
@@ -18,7 +18,7 @@ function Profile(props) {
 
   return (
     <div className="profile">
-      <Profile iconSize={ iconSize } storyBorder={ storyBorder } image={ image } />
+      <ProfileIcon iconSize={ iconSize } storyBorder={ storyBorder } image={ image } />
       { 
         (profileName || caption) && !hideProfileName && (
           <div className="profile__wrapper">
