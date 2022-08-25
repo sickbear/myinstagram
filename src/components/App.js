@@ -1,6 +1,7 @@
 import '../styles/App.scss';
 import Navigation from './Navigation'
 import Cards from './Cards'
+import Sidebar from './Sidebar'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div className="container">
           <div className="wrapper">
             <Cards />
+            <Sidebar />
           </div>
         </div>
       </main>

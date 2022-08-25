@@ -1,0 +1,38 @@
+@import 'vars';
+
+.profile{
+  display: flex;
+  align-items: center;
+  font-size: .8em;
+  margin-bottom: .85em;
+
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    max-width: 180px;;
+  }
+
+  &__name{
+    font-weight: 500;
+    margin-bottom: 5px;
+    cursor: pointer;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  &__caption{
+    color: $font-color-secondary;
+
+    &.small{
+      font-size: .8em;
+    }
+  }
+
+  a{
+    text-align: left;
+    width: 100%;
+  }
+}
