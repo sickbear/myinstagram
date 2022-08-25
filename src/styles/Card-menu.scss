@@ -1,0 +1,17 @@
+.card-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+
+  &__interactions {
+    display: flex;
+    padding-left: 1em;
+  }
+
+  &__icon {
+    margin-right: 1em;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+  }
+}
