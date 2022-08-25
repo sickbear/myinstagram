@@ -5,17 +5,17 @@ import Card from './Card'
 function Cards() {
   const commentsOne = [
     {
-      user: "raffagrassetti",
+      user: "bluesky",
       text: "Woah dude, this is awesome! 🔥",
       id: 1,
     },
     {
-      user: "therealadamsavage",
+      user: "iwantmalinka",
       text: "Like!",
       id: 2,
     },
     {
-      user: "mapvault",
+      user: "metallikafan",
       text: "Niceeeee!",
       id: 3,
     },
@@ -23,7 +23,7 @@ function Cards() {
 
   const commentsTwo = [
     {
-      user: "mapvault",
+      user: "mynameiszuzu",
       text: "Amazing content, keep it up!",
       id: 4,
     },
@@ -31,7 +31,7 @@ function Cards() {
 
   const commentsThree = [
     {
-      user: "dadatlacak",
+      user: "waterfall",
       text: "Love this!",
       id: 5,
     },
@@ -41,31 +41,31 @@ function Cards() {
     <div className="cards">
       <Stories />
       <Card 
-        profileName="rafagrassetti" 
+        profileName="bluesky" 
         storyBorder={ true } 
         image="https://razumnotravel.ru/wp-content/uploads/2019/02/maxresdefault-min-1.jpg" 
         comments={ commentsOne } 
-        linkedByText="dadatlacak" 
+        linkedByText="iwantmalinka" 
         lidedByNumber={ 59 } 
-        hours={ 15 }
+        hours={ 3 }
       />
       <Card 
-        profileName="rafagrassetti" 
+        profileName="mynameiszuzu" 
         storyBorder={ true } 
         image="https://images6.alphacoders.com/943/943105.jpg" 
-        comments={ commentsOne } 
-        linkedByText="dadatlacak" 
+        comments={ commentsTwo } 
+        linkedByText="bluesky" 
         lidedByNumber={ 36 } 
         hours={ 9 }
       />
       <Card 
-        profileName="rafagrassetti" 
+        profileName="metallikafan" 
         storyBorder={ true } 
         image="http://almode.ru/uploads/posts/2021-06/1624031449_21-almode_ru-p-dom-v-lesu-u-ozera-23.jpg" 
-        comments={ commentsOne } 
-        linkedByText="dadatlacak" 
+        comments={ commentsThree } 
+        linkedByText="mynameiszuzu" 
         lidedByNumber={ 87 } 
-        hours={ 3 }
+        hours={ 15 }
       />
     </div>
   )
