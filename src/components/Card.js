@@ -21,13 +21,13 @@ function Card(props) {
       </header>
       <img className="card__img" src={ image } alt="" />
       <CardMenu />
-      <div className="likedby">
+      <div className="card__likedby">
         <Profile iconSize="small" hideProfileName={ true } />
         <span>
           Liked by <strong>{ likedByText }</strong> and <strong>{ lidedByNumber } others</strong>
         </span>
       </div>
-      <div className="comment">
+      <div className="card__comment">
         { comments.map(comment => {
           return (
             <Comment 
@@ -38,10 +38,10 @@ function Card(props) {
           )
         }) }
       </div>
-      <div className="time-posted">{ hours } HOURS AGO</div>
-      <div className="add-comment">
-        <div className="comment__text">Add a comment...</div>
-        <div className="post__text"></div>
+      <div className="card__time-posted">{ hours } HOURS AGO</div>
+      <div className="card__add-comment">
+        <div className="card__comment-text">Add a comment...</div>
+        <div className="card__post-text"></div>
       </div>
     </div>
   )

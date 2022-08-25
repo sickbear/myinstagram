@@ -1,0 +1,79 @@
+@import 'vars';
+
+.card {
+  border: 1px solid $border-color-grey;
+  background-color: $background-white;
+  margin-bottom: 3.5em;
+  border-radius: 3px;
+  @media (max-width: 640px){
+    border: none;
+    background-color: $background-grey;
+    margin-bottom: 0.75em;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .75em;
+
+    .profile{
+      margin-bottom: 0;
+    }
+  }
+
+  &__button{
+    height: 30px;
+    cursor: pointer;
+  }
+
+  &__img{
+    width: 100%;
+    display: block;
+    margin-bottom: 1em;
+  }
+
+  &__likedby{
+    display: flex;
+    padding-left: 1em;
+
+    span{
+      font-size: 0.75em;
+      margin-left: 0.5em;
+      padding-top: 0.5em;
+    }
+  }
+
+  &__comment{
+    margin-bottom: 0.75em;
+  }
+
+  &__time-posted {
+    font-size: 0.6em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    color: $font-color-secondary;
+    border-bottom: 1px solid $border-color-grey-secondary;
+    @media (max-width: 640px){
+      border: none;
+    }
+  }
+
+  &__add-comment {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85em;
+    padding: 1.5em 1.25em;
+    @media (max-width: 640px){
+      display: none;
+    }
+  }
+
+  &__commentText {
+    color: $font-color-secondary;
+  }
+
+  &__post-text {
+    color: $link-color-secondary;
+  }
+}
