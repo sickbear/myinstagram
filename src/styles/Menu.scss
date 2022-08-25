@@ -1,0 +1,11 @@
+.menu{
+  display: flex;
+  align-items: center;
+  column-gap: 26px;
+
+  &__icon{
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+  }
+}

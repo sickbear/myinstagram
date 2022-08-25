@@ -1,0 +1,28 @@
+@import 'vars';
+
+.search{
+  border: 1px solid $border-color-grey;
+  border-radius: 3px;
+  background-color: $background-grey;
+  height: 26px;
+  min-width: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  @media (max-width: 576px){
+    display: none;
+  }
+
+  &__icon{
+    width: 12px;
+    opacity: .4;
+    margin-right: .3em;
+  }
+
+  &__text{
+    color: $font-color-secondary;
+    font-size: .85em;
+    font-weight: 300;
+  }
+}

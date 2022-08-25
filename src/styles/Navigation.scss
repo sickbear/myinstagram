@@ -1,0 +1,23 @@
+@import 'vars';
+
+.navigation{
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: $background-white;
+  width: 100%;
+  border-bottom: 1px solid $border-color-grey;
+
+  &__wrapper{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 16px;
+  }
+
+  &__logo{
+    width: 100px;
+    cursor: pointer;
+  }
+}
