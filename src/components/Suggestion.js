@@ -6,7 +6,7 @@ function Suggestion() {
     <div className="suggestion">
       <div className="suggestion__wrapper">
         <div className="suggestion__title">Suggestions For You</div>
-        <a href="/">See All</a>
+        <a className="suggestion__link" href="/">See All</a>
       </div>
       <Profile 
         caption="Followed by mapvault + 3 more" 

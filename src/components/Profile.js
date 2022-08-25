@@ -27,7 +27,7 @@ function Profile(props) {
           </div>
         ) 
       }
-      <a href="/">{ urlText }</a>
+      <a className="profile__link" href="/">{ urlText }</a>
     </div>
   )
 }

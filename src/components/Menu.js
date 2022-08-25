@@ -13,7 +13,7 @@ function Menu () {
       <Inbox className="menu__icon" />
       <Explore className="menu__icon" />
       <Notification className="menu__icon" />
-      <ProfileIcon iconSize="small" image={ image } storyBorder={ true } />
+      <ProfileIcon iconSize="small" image={ image } storyBorder={ false } />
     </div>
   )
 }
