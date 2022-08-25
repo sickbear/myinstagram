@@ -1,0 +1,13 @@
+@import 'vars';
+
+.story{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em .5em;
+
+  &__name{
+    font-size: .65em;
+    margin: .4em;
+  }
+}
