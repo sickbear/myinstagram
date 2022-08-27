@@ -43,7 +43,7 @@ function Cards() {
       <Card 
         profileName="bluesky" 
         storyBorder={ true } 
-        image="https://razumnotravel.ru/wp-content/uploads/2019/02/maxresdefault-min-1.jpg" 
+        image="https://randart.ru/art/JD99/wallpapers?h=1080&w=1920&q=100" 
         comments={ commentsOne } 
         linkedByText="iwantmalinka" 
         lidedByNumber={ 59 } 
@@ -52,7 +52,7 @@ function Cards() {
       <Card 
         profileName="mynameiszuzu" 
         storyBorder={ true } 
-        image="https://images6.alphacoders.com/943/943105.jpg" 
+        image="https://randart.ru/art/JD99/wallpapers?h=1024&w=1280&q=100" 
         comments={ commentsTwo } 
         linkedByText="bluesky" 
         lidedByNumber={ 36 } 
@@ -61,7 +61,7 @@ function Cards() {
       <Card 
         profileName="metallikafan" 
         storyBorder={ true } 
-        image="http://almode.ru/uploads/posts/2021-06/1624031449_21-almode_ru-p-dom-v-lesu-u-ozera-23.jpg" 
+        image="https://randart.ru/art/JD99/wallpapers?h=900&w=1600&q=100" 
         comments={ commentsThree } 
         linkedByText="mynameiszuzu" 
         lidedByNumber={ 87 } 
